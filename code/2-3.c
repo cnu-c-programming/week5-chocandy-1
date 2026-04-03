@@ -7,16 +7,16 @@ int main() {
 
     int **base = arr;
 
-    printf("%ld\n", (char *)*pp - (char *)*base);
+    printf("%ld\n", (char *)*pp - (char *)base);
 
     pp = pp + 1;
-    printf("%ld\n", (char *)*pp - (char *)*base);
+    printf("%ld\n", (char *)*pp - (char *)base);
 
     pp = pp + 1;
-    printf("%ld\n", (char *)*pp - (char *)*base);
+    printf("%ld\n", (char *)*pp - (char *)base);
 
     pp = pp + 1;
-    printf("%ld\n", (char *)*pp - (char *)*base);
+    printf("%ld\n", (char *)*pp - (char *)base);
 
     return 0;
 }
